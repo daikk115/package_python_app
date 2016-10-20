@@ -4,11 +4,12 @@ setup(
     name='FlaskApp',
     version='0.1.0',
     packages=find_packages(),
-    entry_points = {
-        'console_scripts': [
-        'flaskapp = app.__main__:main',                  
-        ],              
-    },
+    # entry_points = {
+    #     'console_scripts': [
+    #     'flaskapp = app.__main__:main',                  
+    #     ],              
+    # },
+    scripts=['bin/run'],
     url='https://github.com/daikk115/python_app/tree/master/FlaskApp',
     license='',
     author='daidv',
