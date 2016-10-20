@@ -49,3 +49,8 @@ because I'm facing some bug like ".egg is not directory, we can read file templa
 
   + Remove load config: app/__init__.py
   + Return fixed value in module_one/controllers.py
+
+
+#### References
+
+- [two way that we need to add a script into /usr/local/bin](https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html)
