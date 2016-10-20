@@ -18,7 +18,7 @@ python setup.py develop -u
 
 #### NOTE:
 
-- Use setuptools alternative for distutils
+- Use setuptools substitute for distutils
 ```
 #from distutils.core import setup
 from setuptools import setup
