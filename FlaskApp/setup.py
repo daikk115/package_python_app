@@ -9,7 +9,7 @@ setup(
     #     'flaskapp = app.__main__:main',                  
     #     ],              
     # },
-    scripts=['bin/run'],
+    scripts=['bin/flaskapp'],
     url='https://github.com/daikk115/python_app/tree/master/FlaskApp',
     license='',
     author='daidv',
