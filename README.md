@@ -8,13 +8,9 @@ https://www.digitalocean.com/community/tutorials/how-to-package-and-distribute-p
 - Working directory: `~/MyApplication/FlaskApp$`
 - For develop, we just need two commands like bellow:
 
-  + To create .egg.link to FlaskApp directory:
 ```
-python setup.py develop
-```
-  + To reverse this, please:
-```
-python setup.py develop -u
+python setup.py develop    # create .egg.link to FlaskApp
+python setup.py develop -u #To reverse
 ```
 - For normal user:
 
