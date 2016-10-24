@@ -14,5 +14,8 @@ setup(
     license='',
     author='daidv',
     author_email='daikk115@gmail.com',
-    description=''
+    description='',
+    install_requires=[
+        "flask",
+    ],
 )
