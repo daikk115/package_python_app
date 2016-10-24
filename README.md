@@ -45,8 +45,13 @@ from setuptools import setup
 ```
 pip install --upgrade setuptools pip
 ```
+- Config requirement packages: [Normally, we have two ways to say for users which dependencies packages they need for our app](https://packaging.python.org/requirements/).
 
-- Finally, this is my env in my test case:
+	+ Config install_requires in setup.py : require when we setup via deb file
+	+ Config requirements.txt : not require when we setup, just recommend users run `pip install -r requirements.txt`
+
+In this super small example project, I just use install_requires.
+-  <strong>This is my env in my test case</strong>:
 ```
 daidv@Winner:~/MyApplication/FlaskApp$ python
 Python 2.7.12 (default, Jul  1 2016, 15:12:24) 
