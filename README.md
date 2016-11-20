@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/daikk115/package_python_app/badges/gpa.svg)](https://codeclimate.com/github/daikk115/package_python_app)
+
 # python_app
 How To Package And Distribute Python Applications
 
