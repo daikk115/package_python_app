@@ -5,4 +5,4 @@ module_one = Blueprint("auth", __name__, url_prefix="/auth")
 
 @module_one.route("/hello")
 def hello():
-	return "Dang Van Dai"
+	return "My nam is Dang Van Dai, this is my app!!!"
